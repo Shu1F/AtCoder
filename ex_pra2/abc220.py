@@ -1,5 +1,5 @@
 K = int(input())
-A, B = int(input().split())
+A, B = input().split()
 
 changedA = int(A, K)
 changedB = int(B, K)
