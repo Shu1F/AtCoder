@@ -4,12 +4,11 @@ ansNum = 0
 
 for i in range(1, N + 1):
     count = 0
-temp = i
-while temp % 2 == 0:
-    temp //= 2
-    count += 1
-        else:
-            break
+    tmp = i    
+    while tmp % 2 == 0:
+        tmp //= 2
+        count += 1
+
     if count > maxCount:
         maxCount = count
         ansNum = i
