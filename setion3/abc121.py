@@ -13,7 +13,7 @@ for A, B in pairs:
     if bought == ans:
         break
     buy = min(B, M - bought)
-        ans += A * buy
+    ans += A * buy
     bought += buy
 
 print(ans)
